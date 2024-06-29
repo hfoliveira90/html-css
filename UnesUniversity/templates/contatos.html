@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<body background="./static/imagens/fundo2.png"></body>
+
+<main class="text">
+    <section>
+        <h2>Entre em contato</h2>
+        <p>
+            Doloribus, dicta ab libero tenetur voluptatem beatae quo necessitatibus animi commodi, rerum, earum numquam labore facilis est dolorum. 
+        </p>
+        <hr>
+
+        <form action="">
+            <label for="email">Seu e-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="assunto">Assunto:</label><br>
+            <input type="text" id="assunto" name="assunto" required><br>
+            
+            <label for="descricao">Descrição:</label><br>
+            <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</main>
+
+{% endblock %}
