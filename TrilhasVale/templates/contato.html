@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../static/img/012.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+<br><p class="col-10 m-auto">Esse é um espaço para você se comunicar conosco. Se precisar de informações, esclarecimentos de dúvidas, registrar um elogio ou até fazer alguma reclamação, escreva sua mensagem. Será um grande prazer conhecer sua opinião e uma satisfação respondê-la.</p><br>
+
+<div class="col-10 m-auto">
+  <form action="/contato" method="post">
+    <label for="nome">Nome*</label><br>
+    <input type="nome" id="nome" name="nome" required><br>
+    
+    <label for="sobrenome">Sobrenome*</label><br>
+    <input type="sobrenome" id="sobrenome" name="sobrenome" required><br>
+    
+    <label for="telefone">Telefone*</label><br>
+    <input type="telefone" id="telefone" name="telefone" required><br>
+
+    <label for="email">Seu e-mail*</label><br>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="assunto">Assunto:</label><br>
+    <input type="text" id="assunto" name="assunto" required><br>
+    
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+
+{% endblock %}
