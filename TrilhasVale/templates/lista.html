@@ -1,0 +1,37 @@
+<!DOCTYtdE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewtdort" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Telefone</th>
+                <th>email</th>
+                <th>Assunto</th>
+                <th>Mensagem</th>
+            </tr>
+        </thead>
+    {% for email in todos_email %}
+    <tr>
+
+
+        <td>{{email[0]}}</td>
+        <td>{{email[1]}}</td>
+        <td>{{email[2]}}</td>
+        <td>{{email[3]}}</td>
+        <td>{{email[4]}}</td>
+        <td>{{email[5]}}</td>
+    </tr>
+    {% endfor %}
+
+
+    </table>
+</body>
+</html>
