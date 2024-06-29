@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unes Universidade</title>
+    <link rel="stylesheet" href="./static/CSS/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <nav>
+            <ul>
+                <img src="./static/imagens/logo.png">
+                <li><a href="/">Home</a></li>
+                <li><a href="/quemsomos">Quem Somos</a></li>
+                <li><a href="/contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        {% block main %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p><h4>Todos os direitos reservados</h4></p>
+    </footer>
+</body>
