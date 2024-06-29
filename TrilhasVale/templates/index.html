@@ -1,0 +1,314 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div id="carouselExample" class="carousel slide col-12 m-auto">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../static/img/001.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../static/img/002.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../static/img/003.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<hr><br>
+<div class="col-9 m-auto">
+<p><h3 class = "text-center">SOMOS TRILHAS DO VALE</h3></p>
+<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae perspiciatis quibusdam assumenda magnam perferendis vero quo exercitationem impedit cum at, eum libero. Rem, soluta? Porro, sit culpa. Repellendus, in molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aut perferendis in excepturi, saepe placeat accusamus repellat quo rem quia aspernatur temporibus ut ipsam quidem iusto reiciendis dignissimos iste provident.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui amet dolorem ipsum atque quibusdam necessitatibus voluptate minima quae, magnam distinctio veritatis odit numquam placeat eaque perferendis est ratione explicabo ullam.</p>
+</div>
+<br><hr>
+
+
+<p><h3 class="text-center">ALGUNS DE NOSSOS ROTEIROS</h3></p>
+
+<div class="col-10 m-auto row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/pico-da-bacia-sao-jose-do-barreiro-sp.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pico da Bacia - São José do Barreiro/SP</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sit necessitatibus quo libero facere totam blanditiis voluptatibus perspiciatis error ratione maiores soluta consequatur, culpa itaque omnis, non ut unde optio.</p>
+        <button type="button" class="btn btn-success">Saiba mais</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Próximas datas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Próximas datas</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <p>A partir de Janeiro 2024</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/surf-ubatuba.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surf em Ubatuba/SP</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sit necessitatibus quo libero facere totam blanditiis voluptatibus perspiciatis error ratione maiores soluta consequatur, culpa itaque omnis, non ut unde optio.</p>
+        <button type="button" class="btn btn-success">Saiba mais</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Próximas datas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    ...
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/pedra-da-onca-sfx.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Trilha da Pedra da Onça - São Francisco Xavier/SP</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sit necessitatibus quo libero facere totam blanditiis voluptatibus perspiciatis error ratione maiores soluta consequatur, culpa itaque omnis, non ut unde optio.</p>
+        <button type="button" class="btn btn-success">Saiba mais</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Próximas datas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    ...
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/cachoeira-das-borboletas-pinda.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cachoeira das Borboletas - Pindamonhangaba/SP</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sit necessitatibus quo libero facere totam blanditiis voluptatibus perspiciatis error ratione maiores soluta consequatur, culpa itaque omnis, non ut unde optio.</p>
+        <button type="button" class="btn btn-success">Saiba mais</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Próximas datas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    ...
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/amantikir-02.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cores D'Amantikir - Lavrinhas/SP</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sit necessitatibus quo libero facere totam blanditiis voluptatibus perspiciatis error ratione maiores soluta consequatur, culpa itaque omnis, non ut unde optio.</p>
+        <button type="button" class="btn btn-success">Saiba mais</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Próximas datas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    ...
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/nascente-rio-paraiba-areias.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nascente do Rio Paraíba - Areias/SP</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sit necessitatibus quo libero facere totam blanditiis voluptatibus perspiciatis error ratione maiores soluta consequatur, culpa itaque omnis, non ut unde optio.</p>
+        <button type="button" class="btn btn-success">Saiba mais</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Próximas datas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    ...
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr><br>
+
+<p><h3 class="text-center">OPINIÃO DE NOSSOS AVENTUREIROS</h3></p>
+
+<div id="carouselExampleCaptions" class="carousel slide col-10 m-auto">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../static/img/backpack-fundo.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Rafael</h5>
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur voluptatibus ratione vitae voluptates fuga sapiente. Repellat atque libero illo autem a quas, accusamus, labore ea, nulla minima voluptate sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum, hic cupiditate illum nisi ex, illo eum maxime earum dignissimos corporis aut beatae. Minus praesentium neque aut harum. Aliquam, magnam."</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../static/img/Capa-2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fernando e Marina</h5>
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur voluptatibus ratione vitae voluptates fuga sapiente. Repellat atque libero illo autem a quas, accusamus, labore ea, nulla minima voluptate sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum, hic cupiditate illum nisi ex, illo eum maxime earum dignissimos corporis aut beatae. Minus praesentium neque aut harum. Aliquam, magnam."</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../static/img/mochileira-02.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Jaqueline</h5>
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur voluptatibus ratione vitae voluptates fuga sapiente. Repellat atque libero illo autem a quas, accusamus, labore ea, nulla minima voluptate sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum, hic cupiditate illum nisi ex, illo eum maxime earum dignissimos corporis aut beatae. Minus praesentium neque aut harum. Aliquam, magnam."</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<hr><br>
+
+<p><h3 class="text-center">NOSSO BLOG</h3></p>
+
+<div class="card-group col-10 m-auto">
+  <div class="card">
+    <img src="../static/img/008.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">COMO COMEÇAR A FAZER TRILHA E AS REGRAS DE MÍNIMO IMPACTO</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, quibusdam ducimus quis eligendi fugit quaerat tempore autem magnam dolor. Cupiditate dolores nesciunt qui repellendus perferendis fugit laboriosam numquam deserunt nisi.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <button type="button" class="btn btn-success">Veja mais</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../static/img/009.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GUIA DE PRODUTOS PARA UMA BOA TRILHA</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita fuga vitae facilis officia hic accusamus repudiandae nisi incidunt dignissimos. Qui sunt blanditiis numquam autem excepturi repellat aperiam dolorem voluptates architecto.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <button type="button" class="btn btn-success">Veja mais</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../static/img/010.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">CONHEÇA NOSSOS GUIAS</h5>
+      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem nemo nisi perferendis, eveniet, tempore, maiores dolorem error velit omnis impedit aliquid. Voluptatem inventore, dignissimos vitae reprehenderit animi impedit. Possimus, cupiditate!</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <button type="button" class="btn btn-success">Veja mais</button>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
