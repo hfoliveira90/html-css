@@ -1,0 +1,37 @@
+body{
+    color: black;
+    background-color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 0.6% 7%;
+    text-align: right;
+}
+
+.text{
+    padding-left: 13.5%;
+    padding-right: 13.5%;
+    text-align: justify;
+}
+
+ol.motivos{
+    list-style-type: decimal;
+}
+
+.center{
+    padding-left: 13.5%;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+}
+
+.container{
+    padding: 0px 50px;
+}
